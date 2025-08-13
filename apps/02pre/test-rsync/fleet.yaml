@@ -1,0 +1,22 @@
+# Chart Name: rsync
+# Chart Version: 1.0.5
+# App Version: 2.7
+---
+defaultNamespace: test
+helm:
+  chart: rsync
+  repo: https://eea.github.io/helm-charts/
+  valuesFrom:
+  - configMapKeyRef:
+      key: values.yaml
+      name: test-rsync-config
+  version: 1.0.5
+rolloutStrategy:
+  autoPartitionSize: 10%
+  maxUnavailable: 25%
+  maxUnavailablePartitions: '0'
+targets:
+- clusterSelector:
+    matchLabels:
+      management.cattle.io/cluster-name: 02pre
+  name: 02pre
