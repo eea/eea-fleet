@@ -2,3 +2,4 @@
 .eea-fleet-config.json
 debug.log
 int
+utils/install.sh
