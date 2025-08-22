@@ -11,7 +11,3 @@ helm:
       key: values.yaml
       name: test-rsync-config
   version: 1.0.5
-rolloutStrategy:
-  autoPartitionSize: 10%
-  maxUnavailable: 25%
-  maxUnavailablePartitions: '0'
