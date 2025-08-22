@@ -15,8 +15,3 @@ rolloutStrategy:
   autoPartitionSize: 10%
   maxUnavailable: 25%
   maxUnavailablePartitions: '0'
-targets:
-- clusterSelector:
-    matchLabels:
-      management.cattle.io/cluster-name: 02pre
-  name: 02pre
