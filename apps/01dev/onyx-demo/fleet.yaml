@@ -1,6 +1,6 @@
 # Chart Name: onyx-demo
 # Chart Version: 0.4.4
-# App Version: v2.4.2
+# App Version: v2.5.3
 ---
 defaultNamespace: silviupanaite
 helm:
