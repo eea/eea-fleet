@@ -1,0 +1,17 @@
+# Chart Name: onyx-demo
+# Chart Version: 0.4.4
+# App Version: v2.4.2
+---
+defaultNamespace: silviupanaite
+helm:
+  chart: onyx-demo
+  releaseName: onyx
+  repo: https://eea.github.io/helm-charts/
+  valuesFrom:
+  - configMapKeyRef:
+      key: values.yaml
+      name: onyx-demo-release-config
+  values:
+    global:
+      version: "v2.5.0" 
+  version: 0.4.4
