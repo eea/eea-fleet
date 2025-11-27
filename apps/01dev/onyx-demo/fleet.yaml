@@ -13,5 +13,6 @@ helm:
       name: onyx-demo-release-config
   values:
     global:
-      version: "v2.5.0" 
+      pullPolicy: IfNotPresent
+      version: "v2.5.0"
   version: 0.4.4
