@@ -1,0 +1,10 @@
+# Chart Name: clms-frontend
+# Chart Version: 7.38.0
+# App Version: 3.558.0
+---
+defaultNamespace: clms
+helm:
+  chart: clms-frontend
+  releaseName: clms-frontend
+  repo: https://eea.github.io/helm-charts/
+  version: 7.38.0

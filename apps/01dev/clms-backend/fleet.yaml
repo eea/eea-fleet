@@ -1,0 +1,10 @@
+# Chart Name: clms-backend
+# Chart Version: 2.29.0
+# App Version: 6.0.15-154
+---
+defaultNamespace: clms
+helm:
+  chart: clms-backend
+  releaseName: clms-backend
+  repo: https://eea.github.io/helm-charts/
+  version: 2.29.0
