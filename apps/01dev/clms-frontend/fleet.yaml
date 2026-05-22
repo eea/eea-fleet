@@ -7,4 +7,8 @@ helm:
   chart: clms-frontend
   releaseName: clms-frontend
   repo: https://eea.github.io/helm-charts/
+  valuesFrom:
+  - configMapKeyRef:
+      key: values.yaml
+      name: clms-frontend-release-config
   version: 7.38.0
