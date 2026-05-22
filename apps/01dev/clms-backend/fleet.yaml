@@ -8,7 +8,7 @@ helm:
   releaseName: clms-backend
   repo: https://eea.github.io/helm-charts/
   valuesFrom:
-  - configMapKeyRef:
-      key: values.yaml
-      name: clms-backend-release-config
-  version: 2.29.0
+    - configMapKeyRef:
+        key: values.yaml
+        name: clms-backend-release-config
+  version: 2.30.1
