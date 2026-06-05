@@ -11,4 +11,4 @@ helm:
     - configMapKeyRef:
         key: values.yaml
         name: clms-frontend-release-config
-  version: 7.45.0
+  version: 7.46.0
