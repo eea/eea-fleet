@@ -11,4 +11,4 @@ helm:
     - configMapKeyRef:
         key: values.yaml
         name: clms-backend-release-config
-  version: 2.33.4
+  version: 2.33.6
