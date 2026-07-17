@@ -10,5 +10,5 @@ helm:
   values:
     global:
       pullPolicy: IfNotPresent
-      version: v4.3.7
+      version: v4.3.9
   version: 0.4.4
