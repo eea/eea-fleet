@@ -7,10 +7,9 @@ helm:
   chart: clms-backend
   releaseName: clms-backend
   repo: https://eea.github.io/helm-charts/
+  timeoutSeconds: 0
   valuesFrom:
     - configMapKeyRef:
         key: values.yaml
         name: clms-backend-release-config
   version: 2.34.0
-
-  
