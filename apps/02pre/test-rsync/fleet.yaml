@@ -7,7 +7,7 @@ helm:
   chart: rsync
   repo: https://eea.github.io/helm-charts/
   valuesFrom:
-  - configMapKeyRef:
-      key: values.yaml
-      name: test-rsync-config
-  version: 1.0.5
+    - configMapKeyRef:
+        key: values.yaml
+        name: test-rsync-config
+  version: 1.4.0

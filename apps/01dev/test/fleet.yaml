@@ -6,4 +6,4 @@ defaultNamespace: silviupanaite
 helm:
   chart: rsync
   repo: https://eea.github.io/helm-charts/
-  version: 1.0.5
+  version: 1.4.0
