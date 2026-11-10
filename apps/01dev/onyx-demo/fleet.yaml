@@ -10,5 +10,5 @@ helm:
   values:
     global:
       pullPolicy: IfNotPresent
-      version: helm/onyx-0.9.35
+      version: helm/onyx-0.9.36
   version: 0.4.4
